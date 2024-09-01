@@ -1,0 +1,4 @@
+Nama     : Mawan
+NIM      : D0224018
+Kelas    : Informatika B
+Angkatan : 2024
