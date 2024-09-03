@@ -1,3 +1,8 @@
-package Day 2 ;
-	public class main {
-    public static void main (string) }
+
+package Day2;
+
+public class Day2{
+	public static void main(String[] args) {
+		 
+	}
+}
