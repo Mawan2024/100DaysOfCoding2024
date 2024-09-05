@@ -1,9 +1,5 @@
-public class Main {
+
+ public class Main {
 	public static void main(String[] args) {
-	 package 4;
-			System.out.println("nama saya mawan ");
-		System.out.printf("saya berasal dari mamasa");
-		System.out.println("saya berusia 18 tahun");
-		System.out.printf("saya dari prodi informatika");
-		System.out.println("nomor induk mahasiswa D0224018");
-		System.out.printf("saya dari alumni SMKN 1 SUMARORONG");
+   System.out.println("nama saya adala mawan, umur saya adala 18 tahun ");
+	System.out.printf("nama saya adala%s,umur saya adala%d,nama + umur");
