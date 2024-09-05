@@ -1,5 +1,5 @@
 
- public class Main {
+public class Main {
 	public static void main(String[] args) {
-   System.out.println("nama saya adala mawan, umur saya adala 18 tahun ");
-	System.out.printf("nama saya adala%s,umur saya adala%d,nama + umur");
+		System.out.print("nama saya mawan,saya berusia 18 tahun");
+		System.out.printf("nama saya %s saya berusia %d tahun , mawan, 18");
