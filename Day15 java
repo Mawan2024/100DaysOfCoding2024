@@ -1,6 +1,10 @@
+
 public class Main {
 	public static void main(String[] args) {
-		double  Beratbadan=51.8
+	
+		double  Beratbadan=51.8;
 		double tinggibadan = 159;
-		System.out.println("berat badan :"+beratbadan + "kg" );
+		System.out.println("berat badan :" +Beratbadan + "kg" );
 		System.out.println("tinggi badan :" + tinggibadan + "cm");
+	}
+}
