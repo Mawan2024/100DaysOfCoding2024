@@ -1,0 +1,10 @@
+package coding;
+import java.math.BigInteger;
+public class Main {
+	public static void main(String[] args) {
+		BigInteger a = new BigInteger("12345");
+		BigInteger b = new BigInteger("6789544");
+		System.out.println("nilai a:"+ a);
+		System.out.println("nilai b:"+ b);
+		
+	}
