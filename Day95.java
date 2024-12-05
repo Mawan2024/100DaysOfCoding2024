@@ -1,34 +1,31 @@
-//Pola Segitiga Siku-Siku
+import java.util.Scanner;
 
-public class SegitigaSikuSiku {
+public class PolaSegitiga {
     public static void main(String[] args) {
-        int tinggi = 5; // Tinggi segitiga
+        Scanner scanner = new Scanner(System.in);
 
-        for (int i = 1; i <= tinggi; i++) {
+        // Meminta input jumlah baris
+        System.out.print("Masukkan jumlah baris: ");
+        int n = scanner.nextInt();
+
+        // Segitiga siku-siku
+        System.out.println("\nSegitiga Siku-Siku:");
+        for (int i = 1; i <= n; i++) {
             for (int j = 1; j <= i; j++) {
                 System.out.print("*");
             }
             System.out.println();
         }
-    }
-}
 
-
-
-//Pola Segitiga Sama Kaki
-
-public class SegitigaSamaKaki {
-    public static void main(String[] args) {
-        int tinggi = 5; // Tinggi segitiga
-
-        for (int i = 1; i <= tinggi; i++) {
-            for (int j = tinggi - i; j > 0; j--) {
-                System.out.print(" ");
-            }
-            for (int k = 1; k <= (2 * i - 1); k++) {
+        // Segitiga siku-siku terbalik
+        System.out.println("\nSegitiga Siku-Siku Terbalik:");
+        for (int i = n; i >= 1; i--) {
+            for (int j = 1; j <= i; j++) {
                 System.out.print("*");
             }
             System.out.println();
         }
+
+        scanner.close();
     }
 }
